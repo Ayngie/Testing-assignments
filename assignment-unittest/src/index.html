@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A simple todo list</title>
+
+    <link rel="stylesheet" href="scss/main.scss" />
+    <script src="ts/main.ts" defer type="module"></script>
+  </head>
+  <body>
+    <form id="newTodoForm">
+      <div>
+        <input type="text" id="newTodoText" />
+        <!--Inputruta för användaren att skriva in nya todos.-->
+
+        <button>Skapa</button>
+        <!--Knapp för att submitta todos.-->
+
+        <button type="button" id="btn-sort-ABC">Sortera A till Ö</button>
+
+        <button type="button" id="btn-sort-boolean">
+          Sortera färdigt / ej färdigt
+        </button>
+
+        <button type="button" id="clearTodos">Rensa lista</button>
+        <!--Knapp för att rensa listan från todos.-->
+      </div>
+
+      <div id="error" class="error"></div>
+      <!--Div för att skriva ut felmedd om användarne inte skriver in ngt o försöker trycka på knappen ändå.-->
+    </form>
+    <ul id="todos" class="todo"></ul>
+    <!--UL för att kunna lägga till li / todos i.-->
+  </body>
+</html>
