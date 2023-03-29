@@ -6,6 +6,8 @@ This repository contains three separate projects. These are 3 individual assignm
 - Integration-testing with Jest
 - E2E-testing with Cypress.
 
+---
+
 ## Techniques used (shields/badges)
 ![Git badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white/to/img.png) 
 ![VSCode badge](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white/to/img.png)
