@@ -21,7 +21,7 @@ This repository contains three separate projects. These are 3 individual assignm
 ---
 
 ## Screen dump of project:
-![Testing code](https://angelicareutersward.se/assets/testingCode/testingCode.png)
+![Testing code](https://angelicareutersward.se/Images/testingCode/TestingCode.png)
 
 ---
 
